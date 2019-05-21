@@ -450,7 +450,7 @@ int main()
         {
         	errorReading=sewerage.parser(str);
         }
-	}
+    }
 	if ((sewerage.search(&S,1)==NONE)||(sewerage.search(&T,1)==NONE))
 	{
 		errorReading=true;
